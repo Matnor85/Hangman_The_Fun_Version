@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SetName" xml:space="preserve">
+    <value>Navn: </value>
+    <comment>Program.cs</comment>
+  </data>
+  <data name="Press" xml:space="preserve">
+    <value>Trykk på en hvilken som helst knapp for å fortsette</value>
+    <comment>Program.cs</comment>
+  </data>
+  <data name="AskForName" xml:space="preserve">
+    <value>Hva heter du?</value>
+    <comment>Program.cs</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Spille</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Engelsk</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Germany" xml:space="preserve">
+    <value>Tysk</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Swedish" xml:space="preserve">
+    <value>Svensk</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Hard" xml:space="preserve">
+    <value>Vanskelig</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Easy" xml:space="preserve">
+    <value>Lett</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="WrongInput1-3" xml:space="preserve">
+    <value>Feil inntasting. Velg mellom 1–3</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tilbake</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nei</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Er du sikker?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="NoHighScore" xml:space="preserve">
+    <value>Det er ingen High Score ennå!</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="ShowList" xml:space="preserve">
+    <value>Vis High Score</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="ClearList" xml:space="preserve">
+    <value>Fjern High Score</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Forsøk: </value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Feil passord! Toppscorelisten ble ikke tømt!</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passord: </value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Difficulty_Hard" xml:space="preserve">
+    <value>Vanskelig</value>
+  </data>
+  <data name="Difficulty_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Difficulty_Easy" xml:space="preserve">
+    <value>Lett</value>
+  </data>
+  <data name="Category_Fruits" xml:space="preserve">
+    <value>Frukt</value>
+  </data>
+  <data name="Category_Cities" xml:space="preserve">
+    <value>Byer</value>
+  </data>
+  <data name="Category_Animals" xml:space="preserve">
+    <value>Dyr</value>
+  </data>
+  <data name="Fruits" xml:space="preserve">
+    <value>Frukt</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Animals" xml:space="preserve">
+    <value>Dyr</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="HighScoreListIsEmpty" xml:space="preserve">
+    <value>High Score listen er nå tom!</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="WrongInput1-4" xml:space="preserve">
+    <value>Forkert indtastning. Vælg mellem 1-4</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="WrongInput1-2" xml:space="preserve">
+    <value>Feil inndata. Velg mellom 1–2</value>
+  </data>
+  <data name="WrongInput1-6" xml:space="preserve">
+    <value>Feil inntasting. Velg mellom 1–6</value>
+  </data>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Takk for denne gangen.</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Slutt</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Skriv inn passordet for å fjerne highscore:</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="ShowHighScore" xml:space="preserve">
+    <value>High Score</value>
+    <comment>Menu.cs</comment>
+  </data>
+  <data name="GameOver" xml:space="preserve">
+    <value>GAME OVER!</value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="Difficulty" xml:space="preserve">
+    <value>Vanskelighetsgrad</value>
+  </data>
+  <data name="TriesLeft" xml:space="preserve">
+    <value>Antall gjenværende forsøk: </value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="WellDone" xml:space="preserve">
+    <value>Bra jobbet!</value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="WrongLetter" xml:space="preserve">
+    <value>Brevet finnes ikke</value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="SecretWord" xml:space="preserve">
+    <value>Det hemmelige ordet var:</value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="GuessLetter" xml:space="preserve">
+    <value>Gjett en bokstav</value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="EndShowGuesses" xml:space="preserve">
+    <value>Antall gjetninger: </value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="Awsome" xml:space="preserve">
+    <value>Flott jobb!</value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="BetterLuckNextTime" xml:space="preserve">
+    <value>Bedre lykke neste gang!</value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="GuessedLetters" xml:space="preserve">
+    <value>Gjettede bokstaver: </value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="EndShowGuessedLetters" xml:space="preserve">
+    <value>Du gjettet følgende bokstaver: </value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="EndShowWord" xml:space="preserve">
+    <value>Det hemmelige ordet var: </value>
+    <comment>Game.cs</comment>
+  </data>
+  <data name="ReadError" xml:space="preserve">
+    <value>Fel vid läsning av highscore: </value>
+    <comment>Errors</comment>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Byer</value>
+  </data>
+  <data name="RetrievingWords" xml:space="preserve">
+    <value>Det oppsto en feil under henting av ord.</value>
+  </data>
+  <data name="FileWriteError" xml:space="preserve">
+    <value>Ups, noe gikk galt, kunne ikke lagre</value>
+  </data>
+  <data name="FileReadError" xml:space="preserve">
+    <value>Kunde ikke lese filen</value>
+  </data>
+  <data name="Norway" xml:space="preserve">
+    <value>Norsk</value>
+  </data>
+  <data name="Danish" xml:space="preserve">
+    <value>Dansk</value>
+  </data>
+</root>
