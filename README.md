@@ -1,35 +1,35 @@
-Hangman – The Fun Version
+Hangman â€“ The Fun Version
 
-Skapad av Mathias Norrback. BUV 25
+Skapad av Mathias. BUV 25
 
-Ett modernt och roligt konsolspel av klassiska Hänga Gubbe. 
-utvecklat i C#. Spelet har förbättrad användarupplevelse med centrerad text, menyer och ljudstöd för Windows.
+Ett modernt och roligt konsolspel av klassiska HÃ¤nga Gubbe. 
+utvecklat i C#. Spelet har fÃ¶rbÃ¤ttrad anvÃ¤ndarupplevelse med centrerad text, menyer och ljudstÃ¶d fÃ¶r Windows.
 
 Funktioner
 
-Spela Hänga Gubbe direkt i terminalen
-Snygg centrerad text och menyer för bättre läsbarhet
-Ljudfeedback på Windows
+Spela HÃ¤nga Gubbe direkt i terminalen
+Snygg centrerad text och menyer fÃ¶r bÃ¤ttre lÃ¤sbarhet
+Ljudfeedback pÃ¥ Windows
 Anpassningsbar logotyp och grafik
 Resurshantering via Resources.resx
 
-Användning
+AnvÃ¤ndning
 
-Starta spelet genom att köra:
-Följ instruktionerna i konsolen för att spela.
+Starta spelet genom att kÃ¶ra:
+FÃ¶lj instruktionerna i konsolen fÃ¶r att spela.
 
 Filstruktur
 
-Program.cs – Startpunkt för applikationen
-Game.cs– Spel-logik
-Menu.cs – Menyhantering
-Player.cs – Spelardata
-ConsoleHelper.cs – Hjälpmetoder för konsolutskrift och ljud
-HangManPicture.cs – Grafisk representation av gubben
-Logotype.cs – Visar spelets logotyp
-Resources/Resources.resx – Resurser och texter
+Program.cs â€“ Startpunkt fÃ¶r applikationen
+Game.csâ€“ Spel-logik
+Menu.cs â€“ Menyhantering
+Player.cs â€“ Spelardata
+ConsoleHelper.cs â€“ HjÃ¤lpmetoder fÃ¶r konsolutskrift och ljud
+HangManPicture.cs â€“ Grafisk representation av gubben
+Logotype.cs â€“ Visar spelets logotyp
+Resources/Resources.resx â€“ Resurser och texter
 
 Krav
 
-Windows för ljudstöd (valfritt)
-Men går att köra programmet på andra operativsystem, men utan ljud.
+Windows fÃ¶r ljudstÃ¶d (valfritt)
+Men gÃ¥r att kÃ¶ra programmet pÃ¥ andra operativsystem, men utan ljud.
